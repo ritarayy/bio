@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(to right, #99f2c8, #1f4037);
+  font-family: Arial, sans-serif;
+  padding: 100px 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: start;
+  margin-top: -100px;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+h1,
+h2 {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+a {
+  display: inline-block;
+  background: #325c4e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+a:hover {
+  background: #1c4739;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: start;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+}
+
+.social-icons i {
+  font-size: 24px;
+}
+  
